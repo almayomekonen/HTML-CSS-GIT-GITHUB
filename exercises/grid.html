@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+</head>
+
+<style>
+    .grid-section {
+        padding: 40px;
+        text-align: center;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    .grid-item {
+        background-color: brown;
+        color: white;
+        height: 200px;
+    }
+
+    .red {
+        background-color: red;
+    }
+    .blue {
+        background-color: blue;
+    }
+    .yellow {
+        background-color: yellow;
+    }
+    .crimson {
+        background-color: crimson;
+    }
+    .green {
+        background-color: green;
+    }
+    .gray {
+        background-color: gray;
+    }
+    .skyblue {
+        background-color: skyblue;
+    }
+    .orange {
+        background-color: orange;
+    }
+</style>
+
+<body>
+    <!-- emmet cheet sheet -->
+    <section class="grid-section">
+        <h2>Grid</h2>
+        <p>Grid is perfect for buidling complex layouts.</p>
+        <div class="grid-container">
+            <div class="grid-item red">A</div>
+            <div class="grid-item blue">B</div>
+            <div class="grid-item yellow">C</div>
+            <div class="grid-item crimson">D</div>
+            <div class="grid-item green">E</div>
+            <div class="grid-item gray">F</div>
+            <div class="grid-item skyblue">G</div>
+            <div class="grid-item orange">H</div>
+        </div>
+    </section>
+</body>
+</html>
+
+
+<!-- <p></p>
+  <p></p>
+  <div class="boxes-wrapper">
+      <div class="box"></div>
+      <div class="box"></div>
+</div> -->

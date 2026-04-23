@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+/* universal selector */
+* {
+    margin: 0;
+}
+
+body {
+  background-color: #0FC2C0; 
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    padding: 20px;
+}
+
+header p {
+   margin-bottom: 10px; 
+}
+
+.first-section {
+    text-align: center;
+    height: 100vh;
+}
+
+.first-section h2 {
+    padding: 10px;
+}
+
+.first-section p {
+    margin-bottom: 10px;
+}
+
+.second-section {
+    height: 100vh;
+    background-color: #E3C75F;
+}
+
+.buttons-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons-wrapper .dark-blue-btn{
+    background-color: #16232E;
+    border: none;
+    padding: 7px 30px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buttons-wrapper .yellow-btn{
+    background-color: #E3C75F;
+    border: none;
+    padding: 7px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buttons-wrapper .dark-blue-btn:hover{
+    background-color: #425e76;
+}
+
+.buttons-wrapper .yellow-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.first-section img {
+    width: 400px;
+    border-radius: 5px;
+    border: 5px solid black;
+    /* border-color: ;
+     border-style: ;
+    border-width: ; */
+}
+
+.git-explanation p {
+    background-color: #E3C75F;
+    color: black;
+    width: 250px;
+    padding: 10px;
+}
+
+.git-explanation {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.third-section {
+    height: 100vh;
+    background-color: #1fec59;
+}

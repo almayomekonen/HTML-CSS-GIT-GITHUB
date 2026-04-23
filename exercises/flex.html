@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+</head>
+
+<style>
+    .flex-section {
+        text-align: center;
+        padding: 40px;
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: gray;
+        color: white;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<body>
+ <section class="flex-section">
+    <h2>Flex Practice</h2>
+    <p>Flex Technic is all about arranging elements, in a single direction.</p>
+
+    <div class="flex-container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+ </section>
+</body>
+</html>
