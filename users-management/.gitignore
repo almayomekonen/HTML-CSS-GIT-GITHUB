@@ -1,2 +1,17 @@
+# סודות - לעולם לא עולה
 .env
+.env.local
+
+# חבילות - מותקנות מחדש, לא עולות
 node_modules
+
+# לוגים
+*.log
+npm-debug.log*
+
+# קבצי מערכת
+.DS_Store
+
+# קבצי עורך
+.vscode
+.idea
