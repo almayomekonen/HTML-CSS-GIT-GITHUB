@@ -32,8 +32,4 @@ function displayCountries(countries) {
    })
 }
 
-
-
-
-
 getAllCountries();
